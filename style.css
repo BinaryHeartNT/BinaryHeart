@@ -16,6 +16,16 @@
 a {
   /* REMOVES UNDERLINE FOR ALL LINKS */
   text-decoration: none;
+
+  /* TEXT COLOR */
+  color: #0070f3;
+}
+
+a:hover,
+a:focus,
+a:active {
+  /* UNDERLINE WHEN HOVERING OVER LINK */
+  text-decoration: underline;
 }
 
 body {
@@ -43,6 +53,91 @@ main {
   align-items: center;
 }
 
+/* NAVIGATION BAR */
+nav ul {
+  /* REMOVES BULLET POINTS */
+  list-style-type: none;
+
+  /* CLIPS OVERFLOW CONTENT */
+  overflow: hidden;
+
+  /* ADDS PADDING TO NAV BAR */
+  padding: 18px;
+
+  /* CHANGES HORIZONTAL ALIGNMENT OF TEXT */
+  text-align: left;
+}
+
+nav li {
+  /* PUTS LIST ITEMS INLINE (NOT STACKED) */
+  display: inline;
+
+  /* ADDS MARGIN BETWEEN EACH LIST ITEM */
+  margin: 12px;
+
+  /* TEXT SIZE */
+  font-size: 20px;
+}
+
+nav li a {
+  /* TEXT COLOR */
+  color: rgba(0,0,0,.5);
+}
+
+nav li a:hover {
+  /* REMOVES LINK UNDERLINE */
+  text-decoration: none;
+
+  /* TEXT COLOR ON HOVER */
+  color: #343a40;;
+}
+
+.openedPage {
+  /* TEXT COLOR OF PAGE OPENED */
+  color: black;
+}
+
+/* DROPDOWN BAR (CONTACT US) https://www.w3schools.com/Css/tryit.asp?filename=trycss_dropdown_navbar2 */
+li.dropdown {
+  /* PUTS DROPDOWN CONTENT INLINE WITH CONTACT US BUTTON */
+  display: inline-block;
+}
+
+.dropdownContent {
+  /* HIDES DROPDOWN CONTENT WHEN NOT HOVERING */
+  display: none;
+
+  /* PUTS DROPDOWN CONTENT BELOW CONTACT BUTTON */
+  position: absolute;
+
+  /* BACKGROUND COLOR OF THE DROPDOWN MENU */
+  background-color: #f9f9f9;
+}
+
+.dropdownContent a {
+  /* TEXT COLOR OF LINKS IN DROPDOWN MENU */
+  color: rgba(0,0,0,.5);
+
+  /* PADDING AROUND TEXT (TOP/BOTTOM AND LEFT/RIGHT) */
+  padding: 12px 16px;
+  
+  /* STACKS DROPDOWN MENU */
+  display: block;
+
+  /* ALIGNS LINK TEXT TO LEFT */
+  text-align: left;
+}
+
+.dropdownContent a:hover {
+  /* BACKGROUND COLOR OF DROPDOWN BOX */
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdownContent {
+  /* SHOWS DROPDOWN CONTENT WHEN HOVERING OVER CONTACT */
+  display: block;
+}
+
 /* HEADER TEXT */
 header {
   /* CHANGES HEIGHT OF A LINE (SPACING) */
@@ -53,8 +148,6 @@ header {
   
   /* CENTERS TEXT */
   text-align: center;
-
-  padding-bottom: 0;
 }
 
 /* STYLE BINARY AND HEART COLORS */
@@ -63,6 +156,79 @@ header {
 }
 .heart {
   color: #ff0040;
+}
+
+/* FOOTER */
+footer {
+  /* HORIZONTAL LINE ABOVE FOOTER */
+  padding: 2rem 0; /* SPACE BETWEEN TEXT AND DIVIDER */
+  border-top: 1px solid #eaeaea;
+
+  /* PUTS ITEMS NEXT TO EACHOTHER (INSTEAD OF STACKING) */
+  display: flex;
+
+  /* PUTS GAP BETWEEN TEXT AND BUTTONS (TWO DIVS) */
+  justify-content: space-between;
+
+  /* STACKS ITEMS IF NOT ENOUGH SPACE */
+  flex-wrap: wrap;
+
+  /* CHANGES HEIGHT OF A LINE (SPACING) */
+  line-height: 1.5;
+}
+
+footer a {
+  /* CHANGES LINK COLOR TO BLACK */
+  color: black;
+}
+
+footer a:hover {
+  /* CHANGES LINK COLOR WHEN HOVERING */
+  color: #0070f3;
+}
+
+.footerText {
+  /* ADDS MARGIN TO THE LEFT SIDE OF THE TEXT */
+  margin-left: 5%;
+
+  /* CHANGES HORIZONTAL ALIGNMENT OF TEXT */
+  text-align: left;
+}
+
+/* SOCIAL MEDIA BUTTONS (https://www.w3schools.com/howto/howto_css_social_media_buttons.asp) */
+.footerButtons {
+  /* ADDS MARGIN TO THE RIGHT SIDE OF THE BUTTONS */
+  margin-right: 5%;
+}
+
+.fa {
+  /* ADJUSTS PADDING (SPACE BETWEEN SOCIAL MEDIA ICON AND EDGE OF SHAPE) */
+  padding: 20px;
+
+  /* SIZE OF SOCIAL MEDIA ICON */
+  font-size: 40px;
+
+  /* MAKES WIDTH SIZE (HORIZONTAL MEASUREMENT) CONSISTANT */
+  width: 55px;
+
+  /* ICON IN CENTER OF BUTTON */
+  text-align: center;
+
+  /* MAKES BUTTONS CIRCLES */
+  border-radius: 50%;
+
+  /* BUTTON COLOR */
+  color: white;
+  background-color: #ff0040;
+}
+
+.fa:hover {
+  /* CHANGES HOW THE BUTTON LOOKS WHEN HOVERING OVER */
+  opacity: 0.7;
+
+  /* REMOVES LINK UNDERLINE AND COLOR */
+  text-decoration: none;
+  color: white;
 }
 
 /* -------------------- */
@@ -84,23 +250,38 @@ header {
 }
 
 .card {
+  /* ADJUSTS MARGIN (SPACE BETWEEN EACH CARD) */
   margin: 1rem;
+
+  /* ADJUSTS PADDING (SPACE BETWEEN TEXT AND BORDER) */
   padding: 1.5rem;
+
+  /* CHANGES HORIZONTAL ALIGNMENT OF TEXT */
   text-align: left;
+
+  /* COLOR OF TEXT AND BORDER */
   color: inherit;
-  text-decoration: none;
   border: 1px solid #eaeaea;
+
+  /* CURVED CORNERS */
   border-radius: 10px;
+
+  /* FADE IN TRANSITION */
   transition: color 0.15s ease, border-color 0.15s ease;
+
+  /* LIMITS MAXIMUM WIDTH OF THE CARDS */
   max-width: 300px;
 }
 
-/* CHANGES COLOR OF THE BOX AND TEXT WHEN HOVERING OVER/CLICKING ON CARD */
 .card:hover,
 .card:focus,
 .card:active {
+  /* CHANGES COLOR OF THE BOX AND TEXT WHEN HOVERING OVER/CLICKING ON CARD */
   color: #0070f3;
   border-color: #0070f3;
+
+  /* REMOVES UNDERLINE WHEN HOVERING OVER/CLICKING ON CARD */
+  text-decoration: none;
 }
 
 /* STYLES THE HEADER IN THE CARD */
