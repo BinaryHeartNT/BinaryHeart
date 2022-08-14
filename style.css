@@ -54,6 +54,13 @@ main {
 }
 
 /* NAVIGATION BAR */
+nav {
+  /* MAKES THE NAV BAR NOT ANIMATED */
+  animation: anti-animation ease-out 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
 nav ul {
   /* REMOVES BULLET POINTS */
   list-style-type: none;
@@ -452,3 +459,34 @@ td p {
   color: dimgrey;
   font-size: 18px;
 }
+
+/* -------------------- */
+/* ANIMATIONS */
+body {
+  animation: fadeInAnimation ease-out 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes anti-animation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+
+
+/* -------------------- */
+/* MEDIA QUERIES */
