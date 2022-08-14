@@ -405,7 +405,7 @@ td {
   line-height: 1.75;
 
   /* SPACE AROUND TABLE DATA */
-  padding: 1%;
+  padding: 1% 0;
 }
 
 td p {
@@ -474,7 +474,7 @@ body {
   }
   100% {
     opacity: 1;
-    transform: translateY(-10px);
+    transform: translateY(-20px);
   }
 }
 
@@ -483,7 +483,7 @@ body {
     opacity: 1;
   }
   100% {
-    transform: translateY(10px);
+    transform: translateY(20px);
   }
 }
 
