@@ -158,11 +158,34 @@ header {
   color: #ff0040;
 }
 
+/* STYLE SPECIAL TEXT */
+.code {
+  /* CHANGE BACKGROUND COLOR OF TEXT */
+  background: #fafafa;
+
+  /* TEXT COLOR */
+  color: #e83e8c;
+
+  /* CURVE CORNERS OF RECTANGLE */
+  border-radius: 5px;
+
+  /* CHANGE SPACE AROUND TEXT */
+  padding: 0.75rem;
+
+  /* CHANGE TEXT SIZE */
+  font-size: 1.1rem;
+
+  /* DIFFERENT MONOSPACE FONT */
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+  Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
 /* FOOTER */
 footer {
   /* HORIZONTAL LINE ABOVE FOOTER */
   padding: 2rem 0; /* SPACE BETWEEN TEXT AND DIVIDER */
   border-top: 1px solid #eaeaea;
+  margin: 0 3%; /* MAKE HORIZONTAL LINE SHORTER (DOESN'T TOUCH EACH SIDE) */
 
   /* PUTS ITEMS NEXT TO EACHOTHER (INSTEAD OF STACKING) */
   display: flex;
