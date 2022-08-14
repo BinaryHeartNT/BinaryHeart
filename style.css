@@ -197,7 +197,7 @@ footer {
   flex-wrap: wrap;
 
   /* CHANGES HEIGHT OF A LINE (SPACING) */
-  line-height: 1.5;
+  line-height: 1.75;
 }
 
 footer a {
@@ -322,7 +322,7 @@ footer a:hover {
   font-size: 1.25rem;
 
   /* CHANGES HEIGHT OF A LINE (SPACING) */
-  line-height: 1.5;
+  line-height: 1.75;
 }
 
 /* -------------------- */
@@ -334,7 +334,7 @@ footer a:hover {
   margin: 4rem 0;
   
   /* CHANGES HEIGHT OF A LINE (SPACING) */
-  line-height: 1.5;
+  line-height: 1.75;
 
   /* CHANGES FONT SIZE */
   font-size: 1.5rem;
@@ -345,4 +345,110 @@ footer a:hover {
 
   /* CHANGES HORIZONTAL ALIGNMENT OF TEXT */
   text-align: left;
+}
+
+/* -------------------- */
+/* STATIC CARDS */
+/* IMAGES */
+img {
+  /* CHANGES WIDTH TO 90% OF THE SCREEN/SPACE IT IS IN */
+  width: 90%
+}
+
+/* BLUE CARD */
+.blueCard {
+  /* MAKES WIDTH 90% OF SCREEN */
+  width: 90%;
+  
+  /* BLANK SPACE AROUND CARD */
+  margin: 5%;
+
+  /* DISTANCE BETWEEN TEXT AND BORDER */
+  padding: 1.5rem;
+
+  /* CHANGES HORIZONTAL ALIGNMENT OF TEXT */
+  text-align: left;
+
+  /* COLOR OF CARD */
+  border: 1px solid #193961;
+  background-color:#e7f2ff;
+
+  /* ROUNDING CORNERS */
+  border-radius: 10px;
+
+  /* FADE IN TRANSITION */
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.blueCard h1{
+  /* CENTERS HEADING TEXT */
+  text-align: center;
+
+  /* ADDS MARGIN BETWEEN BOTTOM OF HEADING AND TABLE */
+  margin-bottom: 2%;
+}
+
+table {
+  /* ADDS MARGIN BETWEEN TABLE AND SIDES OF CARD */
+  margin: 3%;
+}
+
+td {
+  /* LINE HEIGHT OF TEXT IN TABLE */
+  line-height: 1.75;
+
+  /* SPACE AROUND TABLE DATA */
+  padding: 1%;
+}
+
+td p {
+  font-size: 1.5rem;
+}
+
+/* OTHER TEXT IN CARD (NOT IN TABLE) */
+.cardText {
+  margin: 1%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.75;
+}
+
+/* RED CARD (EVERYTHING EXCEPT COLOR IS THE SAME AS THE BLUE CARDS) */
+.redCard {
+  /* MAKES WIDTH 90% OF SCREEN */
+  width: 90%;
+  
+  /* BLANK SPACE AROUND CARD */
+  margin: 5%;
+
+  /* DISTANCE BETWEEN TEXT AND BORDER */
+  padding: 1.5rem;
+
+  /* CHANGES HORIZONTAL ALIGNMENT OF TEXT */
+  text-align: left;
+
+  /* COLOR OF CARD */
+  border: 1px solid #f57192;
+  background-color:#fff0f3;
+
+  /* ROUNDING CORNERS */
+  border-radius: 10px;
+
+  /* FADE IN TRANSITION */
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.redCard h1{
+  /* CENTERS HEADING TEXT */
+  text-align: center;
+
+  /* ADDS MARGIN BETWEEN BOTTOM OF HEADING AND TABLE */
+  margin-bottom: 2%;
+}
+
+/* -------------------- */
+/* PRESS PAGE */
+.pressDate {
+  color: dimgrey;
+  font-size: 18px;
 }
