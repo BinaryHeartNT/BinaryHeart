@@ -34,9 +34,6 @@ body {
 }
 
 main {
-  /* CONSTRAIN CONTENT HEIGHT */
-  min-height: 100vh;
-  
   /* ADJUSTS PADDING (FIRST VALUE IS TOP/BOTTOM, SECOND IS LEFT/RIGHT) */
   padding: 0 4rem;
 
@@ -487,6 +484,61 @@ body {
   }
 }
 
-
 /* -------------------- */
 /* MEDIA QUERIES */
+
+/* PHONES */
+@media screen and (max-width: 600px) {
+  header {
+    /* HEADER FONT SIZE SMALLER */
+    font-size: 1.8rem;
+  }
+
+  main {
+    /* LESS PADDING */
+    padding: 0 1rem;
+  }
+  
+  .description {
+    /* REMOVE PADDING */
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  footer {
+    /* STACKS TEXT AND BUTTONS */
+    display: block;
+
+    /* ALIGNS TEXT AND BUTTONS IN THE CENTER */
+    justify-content: center;
+  }
+  
+  .footerText {
+    /* REMOVE LEFT MARGIN */
+    margin: 0;
+
+    /* CENTER TEXT */
+    text-align: center;
+  }
+
+  .footerButtons {
+    /* REMOVE RIGHT MARGIN */
+    margin: 0;
+
+    /* CENTER TEXT */
+    text-align: center;
+
+    /* CREATES MARGIN BETWEEN TEXT AND BUTTONS */
+    margin-top: 1%;
+  }
+
+  .blueCard, .redCard {
+    /* REMOVE LEFT AND RIGHT PADDING AROUND CARD CONTENT */
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  tr {
+    display: block;
+  }
+}
