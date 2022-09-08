@@ -34,6 +34,9 @@ body {
 }
 
 main {
+  /* SETS MINIMUM HEIGHT OF THE MAIN SECTION (NOT INCLUDING FOOTER) */
+  min-height: 70vh; /* 70% of viewport's height */
+  
   /* ADJUSTS PADDING (FIRST VALUE IS TOP/BOTTOM, SECOND IS LEFT/RIGHT) */
   padding: 0 4rem;
 
@@ -152,6 +155,9 @@ header {
   
   /* CENTERS TEXT */
   text-align: center;
+
+  /* ADDS SPACE BETWEEN TOP OF TEXT AND NAV BAR */
+  margin-top: 5%;
 }
 
 /* STYLE BINARY AND HEART COLORS */
@@ -202,6 +208,11 @@ footer {
 
   /* CHANGES HEIGHT OF A LINE (SPACING) */
   line-height: 1.75;
+}
+
+footer h2 {
+  /* BIGGER TEXT FOR H2 */
+  font-size: 30px;
 }
 
 footer a {
@@ -496,13 +507,16 @@ body {
 
   main {
     /* LESS PADDING */
-    padding: 0 1rem;
+    padding: 0 0.25rem;
   }
   
   .description {
     /* REMOVE PADDING */
     padding-left: 0;
     padding-right: 0;
+
+    /* CENTERS TEXT */
+    text-align: center;
   }
 
   footer {
@@ -534,8 +548,8 @@ body {
 
   .blueCard, .redCard {
     /* REMOVE LEFT AND RIGHT PADDING AROUND CARD CONTENT */
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
+    padding-left: 0.10rem;
+    padding-right: 0.10rem;
   }
 
   tr {
