@@ -6,7 +6,7 @@ See the original website at https://github.com/IsaacNoel/binaryheart.
 ## For BH'ers
 If you want to contribute to the website, come to the 5th floor of the Winnetka campus on Thursdays and we'll get you started!
 
-### You will need
+### You will need...
 - A computer (but an iPad also works)
 - A Github account
 - A Replit account (you can sign in with a Github or Google account)
