@@ -1,5 +1,5 @@
 # BinaryHeart
-Hello! This is the github page for [binaryheart.org](https://www.binaryheart.org), an after-school nonprofit that repairs donated technology and re-donates those devices to low-income schools. This is the second version of the website, now coded in HTML and CSS.
+Hello! This is the github page for [binaryheart.org](https://www.binaryheart.org), an after-school club that repairs donated technology and re-donates those devices to low-income schools. This is the second version of the website, now coded in HTML and CSS.
 
 See the original website at https://github.com/IsaacNoel/binaryheart.
 
