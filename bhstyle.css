@@ -91,7 +91,7 @@ nav li a {
   color: rgba(0,0,0,.5);
 }
 
-nav li a:hover {
+nav li a:hover,a:focus,a:active {
   /* REMOVES LINK UNDERLINE */
   text-decoration: none;
 
@@ -260,7 +260,9 @@ footer a:hover {
   background-color: #ff0040;
 }
 
-.fa:hover {
+.fa:hover,
+.fa:focus,
+.fa:active {
   /* CHANGES HOW THE BUTTON LOOKS WHEN HOVERING OVER */
   opacity: 0.7;
 
