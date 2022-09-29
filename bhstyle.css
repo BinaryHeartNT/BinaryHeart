@@ -432,6 +432,14 @@ img {
   min-height: 40%; /* the images are only the same size with max and min for width and height */
 }
 
+.aboutTableData {
+  /* LIMIT WIDTH OF IMAGES RELATIVE TO THE TABLE */
+  max-width: 25%;
+  min-width: 25%;
+  max-height: 25%;
+  min-height: 25%; /* the images are only the same size with max and min for width and height */
+}
+
 .tableText {
   /* LINE HEIGHT OF TEXT IN TABLE */
   line-height: 1.75;
@@ -534,7 +542,7 @@ body {
     margin-top: 5%;
   }
 
-  .pressTableData {
+  .pressTableData, .aboutTableData {
     max-width: 100%;
     min-width: 100%;
   }
