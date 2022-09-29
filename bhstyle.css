@@ -405,20 +405,42 @@ img {
   margin-bottom: 2%;
 }
 
-table {
+.cardTable {
   /* ADDS MARGIN BETWEEN TABLE AND SIDES OF CARD */
   margin: 3%;
+
+  /* STACKS ROWS (EACH LINE WITH AN IMAGE AND TEXT) */
+  display: block;
 }
 
-td {
+.tableRow {
+  /* PUTS IMAGES NEXT TO TEXT */
+  display: flex;
+  
+  /* MARGIN BETWEEN ROWS */
+  margin: 3% 0;
+
+  /* CENTERS IMAGES AND TEXT VERTICALLY */
+  align-items: center;
+}
+
+.pressTableData {
+  /* LIMIT WIDTH OF IMAGES RELATIVE TO THE TABLE */
+  max-width: 40%;
+  min-width: 40%;
+  max-height: 40%;
+  min-height: 40%; /* the images are only the same size with max and min for width and height */
+}
+
+.tableText {
   /* LINE HEIGHT OF TEXT IN TABLE */
   line-height: 1.75;
 
   /* SPACE AROUND TABLE DATA */
   padding: 1% 0;
-}
+} 
 
-td p {
+.tableText p {
   font-size: 1.5rem;
 }
 
@@ -501,6 +523,23 @@ body {
 /* MEDIA QUERIES */
 
 /* PHONES */
+@media screen and (max-width: 1000px) {
+  .tableRow {
+    /* STACKS IMAGE AND TEXT FOR SMALL SCREENS */
+    display: block;
+
+    /* CENTERS TEXT */
+    text-align: center;
+
+    margin-top: 5%;
+  }
+
+  .pressTableData {
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+
 @media screen and (max-width: 600px) {
   header {
     /* HEADER FONT SIZE SMALLER */
@@ -553,8 +592,4 @@ body {
     padding-left: 0.10rem;
     padding-right: 0.10rem;
   }
-
-  tr {
-    display: block;
-  }
-
+}
