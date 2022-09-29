@@ -14,7 +14,7 @@
 	  <link rel="stylesheet" href="bhstyle.css" />
 
 	  <!-- link the webpage's JavaScript file -->
-	  <script src="/script.js" defer></script>
+	  <script src="script.js" defer></script>
 
     <!-- Add social media icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -27,27 +27,34 @@
       <!-- This is the navigation bar. Each page is a list item with a link to the page. -->
       <ul>
         <li>
-          <a href="index.html" class="openedPage">Home</a>
+          <a href="javascript:void(0);" class="hamburgerIcon" onclick="mobileNavFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
         </li>
-        <li>
-          <a href="press.html">Press</a>
-        </li>
-        <li class="dropdown">
-          <a href="contact.html">Contact</a>
-          <div class="dropdownContent">
-            <a href="donate.html">Donate</a>
-            <a href="request.html">Request</a>
-          </div>
-        </li>
-        <li>
-          <a href="about.html">About</a>
-        </li>
-        <li>
-          <a href="faqs.html">FAQs</a>
-        </li>
-        <li>
-          <a href="newmembers.html">New Members</a>
-        </li>
+        <div id="navLinks">
+          <li>
+            <a href="index.html" class="openedPage">Home</a>
+          </li>
+          <li>
+            <a href="press.html">Press</a>
+          </li>
+          <li class="dropdown">
+            <a href="contact.html">Contact</a>
+            <div class="dropdownContent">
+              <a href="donate.html">Donate</a>
+              <a href="request.html">Request</a>
+            </div>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="faqs.html">FAQs</a>
+          </li>
+          <li>
+            <a href="newmembers.html">New Members</a>
+          </li>
+        </div>
       </ul>
     </nav>
 

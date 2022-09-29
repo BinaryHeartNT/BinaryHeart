@@ -99,6 +99,10 @@ nav li a:hover,a:focus,a:active {
   color: #343a40;;
 }
 
+.hamburgerIcon {
+  display: none;
+}
+
 .openedPage {
   /* TEXT COLOR OF PAGE OPENED */
   color: black;
@@ -599,5 +603,31 @@ body {
     /* REMOVE LEFT AND RIGHT PADDING AROUND CARD CONTENT */
     padding-left: 0.10rem;
     padding-right: 0.10rem;
+  }
+
+  /* MOBILE NAV BAR */
+  .hamburgerIcon {
+    display: inline;
+  }
+
+  nav ul {
+    text-align: right;
+  }
+
+  #navLinks {
+    display: none;
+    text-align: center;
+  }
+
+  nav li {
+    display: block;
+  }
+
+  .dropdown {
+    margin: 0px;
+  }
+
+  .dropdown:hover .dropdownContent {
+    display: none;
   }
 }
