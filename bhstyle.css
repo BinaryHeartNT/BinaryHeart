@@ -103,12 +103,6 @@ nav li a:hover,a:focus,a:active {
   display: none;
 }
 
-.bhLogoButton {
-  max-width: 0px;
-  max-height: 0px;
-  display: none;
-}
-
 .openedPage {
   /* TEXT COLOR OF PAGE OPENED */
   color: black;
@@ -455,8 +449,7 @@ img {
   line-height: 1.75;
 
   /* SPACE AROUND TABLE DATA */
-  padding: 1
-    % 0;
+  padding: 1% 0;
 } 
 
 .tableText p {
@@ -615,15 +608,6 @@ body {
   /* MOBILE NAV BAR */
   .hamburgerIcon {
     display: inline;
-  }
-
-  .bhLogoButton {
-    max-width: 60px;
-    max-height: 60px;
-    display: inline;
-    float: left;
-    text-align: left;
-    padding: 35px 18px;
   }
 
   nav ul {
