@@ -61,6 +61,14 @@ nav {
   animation-fill-mode: forwards;
 }
 
+nav .logo {
+  margin-left: 18px;
+  margin-top: 18px;
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
 nav ul {
   /* REMOVES BULLET POINTS */
   list-style-type: none;
@@ -630,4 +638,12 @@ body {
   .dropdown:hover .dropdownContent {
     display: none;
   }
+
+  nav .logo {
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 60px;
+    height: 60px;
+    float: left;
+}
 }
