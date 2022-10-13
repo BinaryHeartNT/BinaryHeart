@@ -61,7 +61,7 @@ nav {
   animation-fill-mode: forwards;
 }
 
-nav .logo {
+.logo {
   margin-left: 18px;
   margin-top: 18px;
   width: 45px;
