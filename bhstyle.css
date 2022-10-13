@@ -64,8 +64,8 @@ nav {
 .logo {
   margin-left: 18px;
   margin-top: 18px;
-  width: 45px;
-  height: 45px;
+  max-width: 45px;
+  max-height: 45px;
   float: left;
 }
 
