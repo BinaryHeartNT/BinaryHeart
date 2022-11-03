@@ -1,9 +1,4 @@
 /* CSS FOR ENTIRE SITE */
-/* VARIABLES */
-:root {
-  /* CENTER MOBILE NAV BAR TRANSLATION (SEE JAVASCRIPT) */
-  --centerMobileNav: 0;
-}
 
 * {
   /* RESET MARGINS AND PADDING */
@@ -630,7 +625,7 @@ body {
   #navLinks {
     display: none;
     text-align: center;
-    transform: translate(var(--centerMobileNav, -10%),0);
+    transform: translate(22.5px);
   }
 
   nav li {
