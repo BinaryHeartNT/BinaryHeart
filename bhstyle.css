@@ -625,7 +625,7 @@ body {
   #navLinks {
     display: none;
     text-align: center;
-    transform: translate(22.5px);
+    transform: translate(-22.5px);
   }
 
   nav li {
