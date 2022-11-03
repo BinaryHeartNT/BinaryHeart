@@ -77,7 +77,7 @@ nav ul {
   overflow: hidden;
 
   /* ADDS PADDING TO NAV BAR */
-  padding: 18px;
+  padding: 18px 0;
 
   /* CHANGES HORIZONTAL ALIGNMENT OF TEXT */
   text-align: left;
