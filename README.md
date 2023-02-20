@@ -34,3 +34,6 @@ To view changes, click the green "Run" button. You should see the website load i
 
 ### Pulling changes
 To pull other people's changes, open the version control menu in Replit. If the branch is behind the main's commits, click the orange "pull" button.
+
+### Tutorials
+For more on managing this site, go to [binaryheart.notion.site](https://binaryheart.notion.site).
