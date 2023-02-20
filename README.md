@@ -16,8 +16,9 @@ If you want to contribute to the website, come to the 5th floor of the Winnetka 
 2. Open [Replit](https://replit.com/) and login.
 3. Click the "+ Create" button.
 4. On the "Create a Repl" page, click "Import from Github."
-5. For the Github URL, paste https://github.com/meganklu/binaryheart2.
-At this point, you should see the HTML and CSS files. You can start coding!
+5. For the Github URL, paste [https://github.com/meganklu/binaryheart2](https://github.com/meganklu/binaryheart2).
+    - This URL can be found by going to the BinaryHeart GitHub page and clicking on the green “Code” button.
+6. Once the files are imported, you can start coding!
 
 ### Viewing changes
 To view changes, click the green "Run" button. You should see the website load in Webview. Click the box with an arrow pointing out of it to open the website in a new tab.
