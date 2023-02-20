@@ -11,7 +11,7 @@ If you want to contribute to the website, come to the 5th floor of the Winnetka 
 - A Github account
 - A Replit account (you can sign in with a Github or Google account)
 
-### Instructions for starting
+### Getting started
 1. Get added as a collaborator to the repo (ask one of the BH web dev leaders!).
 2. Open [Replit](https://replit.com/) and login.
 3. Click the "+ Create" button.
