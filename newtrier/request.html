@@ -2,19 +2,19 @@
 <html>
   <head>
     
-    <title>FAQs</title>
+    <title>Request</title>
     <meta name="description" content="Bridging the digital divide" />
     <meta name="description" content="Author: Isaac Noel, Malachi Noel, Maryanne Xu, Megan Lu, Atharva Metkar" />
-    <link rel="shortcut icon" href="assets/binaryheart.svg"/>
+    <link rel="shortcut icon" href="../assets/binaryheart.svg"/>
     <meta charset="utf-8" />
 	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 	  <!-- link the webpage's stylesheet -->
-	  <link rel="stylesheet" href="bhstyle.css" />
+	  <link rel="stylesheet" href="../bhstyle.css" />
 
 	  <!-- link the webpage's JavaScript file -->
-	  <script src="script.js" defer></script>
+	  <script src="../script.js" defer></script>
 
     <!-- Add icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -34,7 +34,7 @@
   <body>
     
     <nav>
-      <a href="index.html"><img class="logo" src="assets/binaryheart.svg" alt="BinaryHeart logo"></a>
+      <a href="index.html"><img class="logo" src="../assets/binaryheart.svg" alt="BinaryHeart logo"></a>
       <!-- This is the navigation bar. Each page is a list item with a link to the page. -->
       <ul>
         <li>
@@ -50,7 +50,7 @@
             <a href="press.html">Press</a>
           </li>
           <li class="dropdown">
-            <a href="contact.html">Contact</a>
+            <a href="contact.html" class="openedPage">Contact</a>
             <div class="dropdownContent">
               <a href="donate.html">Donate</a>
               <a href="request.html">Request</a>
@@ -60,7 +60,7 @@
             <a href="about.html">About</a>
           </li>
           <li>
-            <a href="faqs.html" class="openedPage">FAQs</a>
+            <a href="faqs.html">FAQs</a>
           </li>
           <li>
             <a href="upcomingevents.html">Upcoming Events</a>
@@ -68,70 +68,25 @@
           <li>
             <a href="newmembers.html">New Members</a>
           </li>
+          <li>
+            <a href="../index.html">Switch Chapters</a>
+          </li>
         </div>
       </ul>
     </nav>
 
     <header>
-      <h2>Frequently Asked Questions</h2>
+      <h2>Request Form</h2>
     </header>
 
     <main>
-      <div class="blueCard">
-        <h1>Donations</h1>
-        <div class="cardTable">
-
-          <!-- sample question
-          <div class="tableRow">
-            <div class="tableText">
-              <h2>
-                question
-              </h2>
-              <p>
-                answer
-              </p>
-            </div>
-          </div> -->
-
-          <div class="tableRow">
-            <div class="tableText">
-              <h2>
-                What kind of donations do you accept?
-              </h2>
-              <p>
-                Almost anything! Computers, keyboards, iPads, tablets, monitors, mice, are just a few examples.
-              </p>
-            </div>
-          </div>
-
-          <div class="tableRow">
-            <div class="tableText">
-              <h2>
-                How do I donate?
-              </h2>
-              <p>
-                Head over to our <a href="donate.html">donate page</a>! We‘ll talk and schedule a drop off date.
-              </p>
-            </div>
-          </div>
-
-          <div class="tableRow">
-            <div class="tableText">
-              <h2>
-                What should I do before donating?
-              </h2>
-              <p>
-                If you can, please factory reset your device and remove all stickers, post-its, etc.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="redCard">
-        <h1>Student Involvement</h1>
-        <p class="cardText">If you‘re interested in joining, get involved <a href="newmembers.html">here</a>!</p>
-      </div>
+      <iframe 
+        src="https://docs.google.com/forms/d/e/1FAIpQLSedihLOCN2RADsAcCAL43YPAzZsfdzdPdsDFK_aGqGEpMB-aw/viewform?embedded=true" className = {styles.googleform} height="1700" width="100%" frameBorder="0" marginHeight="0" marginWidth="0">Loading…
+      </iframe>
+      
+      <a class="card" href="contact.html">
+          <h2>Back to the contact page &rarr;</h2>
+      </a>
     </main>
 
     <footer>
@@ -144,7 +99,7 @@
         <a href="https://www.instagram.com/binaryheartnt/" target="_blank" class="fa fa-instagram"></a>
         <a href="https://www.facebook.com/BinaryHeartNT/" target="_blank" class="fa fa-facebook"></a>
         <a href="https://www.linkedin.com/company/binaryheart/" target="_blank" class="fa fa-linkedin"></a>
-        <a href="https://github.com/meganklu/binaryheart2" target="_blank" class="fa fa-github"></a>
+        <a href="https://github.com/BinaryHeartNT/BinaryHeart2024" target="_blank" class="fa fa-github"></a>
       </div>
     </footer>
     
