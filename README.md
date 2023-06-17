@@ -1,7 +1,7 @@
 # BinaryHeart
-Hello! This is the github page for [binaryheart.org](https://www.binaryheart.org), an after-school club that repairs donated technology and re-donates those devices to low-income schools. This is the third version of the website designed fo chapter expansion.
+Hello! This is the github page for [binaryheart.org](https://www.binaryheart.org), an after-school club that repairs donated technology and re-donates those devices to low-income schools. This is the second version of the website.
 
-See the original websites at https://github.com/IsaacNoel/binaryheart and https://github.com/BinaryHeartNT/BinaryHeart2023.
+See the original websites at https://github.com/IsaacNoel/binaryheart.
 
 ## For BH'ers
 If you want to contribute to the website, come to the 5th floor of the Winnetka campus on Thursdays and we'll get you started!
