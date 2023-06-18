@@ -83,6 +83,12 @@ nav ul {
   text-align: left;
 }
 
+.secret {
+  /* CHANGES PADDING FOR ONLY THE SECRET PAGE */
+  padding-top: 0px;
+  padding-left: 18px;
+}
+
 nav li {
   /* PUTS LIST ITEMS INLINE (NOT STACKED) */
   display: inline;
@@ -452,6 +458,25 @@ img {
   min-height: 25%; /* the images are only the same size with max and min for width and height */
 }
 
+/* STYLE FOR GROUP PHOTOS WITH CAPTIONS */
+.captionPhoto {
+  /* MARGIN BETWEEN ROWS */
+  margin: 3% 0;
+
+  /* CENTERS IMAGES AND TEXT */
+  align-items: center;
+  text-align: center;
+}
+
+.captionPhoto img {
+  width: 100%;
+}
+
+.captionPhoto p {
+  font-size: 1.5rem;
+  line-height: 1.75;
+}
+
 .tableText {
   /* LINE HEIGHT OF TEXT IN TABLE */
   line-height: 1.75;
@@ -611,6 +636,10 @@ body {
     /* REMOVE LEFT AND RIGHT PADDING AROUND CARD CONTENT */
     padding-left: 0.10rem;
     padding-right: 0.10rem;
+  }
+
+  .captionPhoto img {
+    width: 95%
   }
 
   /* MOBILE NAV BAR */
