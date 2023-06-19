@@ -34,11 +34,17 @@
   </head>
   
   <body>
-    
+
     <nav>
       <a href="index.html"><img class="logo" src="assets/binaryheart.svg" alt="BinaryHeart logo"></a>
       <!-- This is the navigation bar. Each page is a list item with a link to the page. -->
       <ul>
+        <li>
+          <a href="javascript:void(0);" class="hamburgerIcon" onclick="mobileNavFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </li>
+        <div id="navLinks">
           <li class="dropdown">
             <a href="index.html">Switch Chapters</a>
             <div class="dropdownContent">
