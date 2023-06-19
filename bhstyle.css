@@ -489,6 +489,11 @@ img {
   font-size: 1.5rem;
 }
 
+.tableText ol {
+  font-size: 1.5rem;
+  margin-left: 5%;
+}
+
 /* OTHER TEXT IN CARD (NOT IN TABLE) */
 .cardText {
   margin: 1%;
