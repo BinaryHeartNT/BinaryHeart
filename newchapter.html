@@ -1,22 +1,24 @@
+<!-- this is the basic code in all of the pages including the head, navigation bar, and footer -->
+
 <!DOCTYPE html>
 <html>
   <head>
     
-    <title>BinaryHeart</title>
+    <title>New Chapter</title>
     <meta name="description" content="Bridging the digital divide" />
     <meta name="description" content="Author: Megan Lu" />
-    <link rel="shortcut icon" href="../assets/binaryheart.svg"/>  <!-- adds icon to tab -->
+    <link rel="shortcut icon" href="assets/binaryheart.svg"/>
     <meta charset="utf-8" />
 	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 	  <!-- link the webpage's stylesheet -->
-	  <link rel="stylesheet" href="../bhstyle.css" />
+	  <link rel="stylesheet" href="bhstyle.css" />
 
 	  <!-- link the webpage's JavaScript file -->
-	  <script src="../script.js" defer></script>
+	  <script src="script.js" defer></script>
 
-    <!-- Add social media icon library -->
+    <!-- Add icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Google tag (gtag.js) for Google Analytics -->
@@ -28,28 +30,20 @@
 
       gtag('config', 'UA-52221233-3');
     </script>
-
+    
   </head>
   
   <body>
+    
     <nav>
-      <a href="index.html"><img class="logo" src="../assets/binaryheart.svg" alt="BinaryHeart logo"></a>
+      <a href="index.html"><img class="logo" src="assets/binaryheart.svg" alt="BinaryHeart logo"></a>
       <!-- This is the navigation bar. Each page is a list item with a link to the page. -->
       <ul>
-        <li>
-          <a href="javascript:void(0);" class="hamburgerIcon" onclick="mobileNavFunction()">
-            <i class="fa fa-bars"></i>
-          </a>
-        </li>
-        <div id="navLinks">
-          <li>
-            <a href="index.html" class="openedPage">Home</a>
-          </li>
           <li class="dropdown">
-            <a href="../index.html">Switch Chapters</a>
+            <a href="index.html">Switch Chapters</a>
             <div class="dropdownContent">
-              <a href="../newtrier/index.html">New Trier</a>
-              <a href="index.html">Indiana</a>
+              <a href="newtrier/index.html">New Trier</a>
+              <a href="indiana/index.html">Indiana</a>
             </div>
           </li>
         </div>
@@ -57,22 +51,19 @@
     </nav>
 
     <header>
-      <h1>Welcome to <span class="binary">Binary</span><span class="heart">Heart</span> Indiana Chapter!</h1>
+      <h2>PAGE NAME</h2>
     </header>
 
     <main>
-      <p class="description">Coming soon...</p>
     </main>
+
     <footer>
       <div class="footerText">
         <h2><span class="binary">Binary</span><span class="heart">Heart</span></h2>
-        <p>Indiana University Bloomington</p>
-        <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=iu@binaryheart.org" target="_blank">	
-iu@binaryheart.org</a></p> <!-- target="_blank" opens the link in a new tab -->
+        <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@binaryheart.org" target="_blank">contact@binaryheart.org</a></p> <!-- target="_blank" opens the link in a new tab -->
       </div>
       <div class="footerButtons">
         <a href="https://github.com/BinaryHeartNT/BinaryHeart" target="_blank" class="fa fa-github"></a>
-      </div>
     </footer>
     
   </body>
