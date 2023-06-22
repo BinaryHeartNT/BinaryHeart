@@ -643,6 +643,12 @@ body {
     padding-right: 0.10rem;
   }
 
+  .tableText ol {
+    text-align: left;
+    margin-left: 10%;
+    font-size: smaller;
+  }
+
   .captionPhoto img {
     width: 95%
   }
