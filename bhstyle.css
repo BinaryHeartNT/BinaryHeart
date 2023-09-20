@@ -85,7 +85,7 @@ nav ul {
 
 .secret {
   /* CHANGES PADDING FOR ONLY THE SECRET PAGE */
-  paddinag-top: 0px;
+  padding-top: 0px;
   padding-left: 18px;
 }
 
@@ -113,7 +113,7 @@ nav li a:hover,a:focus,a:active {
   color: #343a40;;
 }
 
-.hamburgerIcon {
+.hamburger-icon {
   display: none;
 }
 
@@ -518,7 +518,7 @@ img {
 
   /* COLOR OF CARD */
   border: 1px solid #f57192;
-  background-color:#fff0f3;
+  background-color: #fff0f3;
 
   /* ROUNDING CORNERS */
   border-radius: 10px;
@@ -654,7 +654,7 @@ body {
   }
 
   /* MOBILE NAV BAR */
-  .hamburgerIcon {
+  .hamburger-icon {
     display: inline;
   }
 
@@ -686,5 +686,5 @@ body {
     width: 60px;
     height: 60px;
     float: left;
-}
+  }
 }
