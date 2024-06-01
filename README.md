@@ -9,7 +9,8 @@ If you want to contribute to the website, come to the 5th floor of the Winnetka 
 ### You will need...
 - A computer (but an iPad also works)
 - A Github account
-- A Replit account (you can sign in with a Github or Google account)
+- A Replit account (you can sign in with a Github or Google account)*
+* Just to note, you can use whatever you see fit if you are more experienced, such as GitHub codespaces or another IDE. Just make sure you are comfortable with whatever you use, especially pushing changes
 
 ### Getting started
 1. Get added as a collaborator to the repo (ask one of the BH web dev leaders!).
