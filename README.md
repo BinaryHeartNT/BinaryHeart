@@ -37,4 +37,7 @@ To view changes, click the green "Run" button. You should see the website load i
 ### Pulling changes
 To pull other people's changes, open the version control menu in Replit. If the branch is behind the main's commits, click the orange "pull" button.
 
+### Permissions for deployment - Deployment policies
+Only BinaryHeart Leaders or sponsors (or designated members that have proven their commitment) have permissions to directly push to the main production branch - the website itself. This is to ensure code is checked before being deployed. When a member pushes to their own branch, a leader can accept the pull request and merge the branches. Aditionally, do not include any API's that we do not have access to, which includes analytics software, hosting, and other tools, as we cannot guarantee that when you graduate that we will have access to those keys. If you think it would be helpful to have a specific tool, feel free to ask.
+
 
